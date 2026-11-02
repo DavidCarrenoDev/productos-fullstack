@@ -1,0 +1,32 @@
+
+{
+  "compilerOptions": {
+    // Configuración de JavaScript y módulos
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    // Organización de archivos
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // Tipos de Node.js
+    "types": ["node"],
+
+    // Compatibilidad entre módulos
+    "esModuleInterop": true,
+
+    // Verificación de tipos
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    // Generación de archivos
+    "sourceMap": true,
+
+    // Optimización de compilación
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
